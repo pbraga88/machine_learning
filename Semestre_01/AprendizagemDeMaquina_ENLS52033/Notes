@@ -1,0 +1,55 @@
+Livro:
+Prediction Machines: The Simple Economics of Artificial Intelligence
+**********************************************************************
+
+Modelo Preditivo permite estimar características desejadas
+
+Training Dataset -> ML Algorithm -> Prediction Model
+
+Analytics: 
+	é a descoberta, interpretação, e comunicação de padrões relevantes de dados.
+
+Conjunto de Treinamento:
+	contém uma instância (dados históricos) do problema sendo observado. 
+
+Underfitting: Modelo simplista demais para a generalização dos dados
+Overfitting: Modelo muito complexo suscetível à ruídos
+
+Tipos de Aprendizagem de Máquina:
+	Supervisionada: Inclui labels (valores desejados)
+					Classificação e regressão
+	Não Supervisionada: Não inclui labels (valores desejados)
+	Por Reforço
+
+
+REGRESSÃO E CLASSIFICAÇÃO
+=========================
+Normalmente utilizam algoritmos de aprendizagem supervisionada
+
+Regressão:
+Regressão Linear
+Diagrama de Dispersão 
+
+Classificação:
+[...]
+SVM - Support Vector Machine
+
+
+Python tools Data Science
+=========================
+Jupiter Lab
+Anaconda
+Azure Notebooks		<- Professor utiliza 
+AWS SageMaker, EMR Notebooks
+Google AI Platform Notebooks (Google Collab)
+
+libs:
+SciPy (NumPy, Matplotlib, Pandas): Data Arrays, 2D charting, data structure/analysis
+SciKit Learn, Tensorflow: machine learning
+Theano: numerical computation
+Keras: high-level neural networks
+NlTK: natural language toolkit
+
+Trabalho para a próxima aula:
+=============================
+(Vide slide)
