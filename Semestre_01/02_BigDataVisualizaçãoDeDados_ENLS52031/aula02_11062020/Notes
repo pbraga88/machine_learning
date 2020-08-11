@@ -1,0 +1,56 @@
+
+Data Driven Process: Buscar padrões e extrair valor
+===================================================
+
+DATA DRIVEN PROCESS:
+	Natureza Problema:
+		* Encontrar nichos de mercado para venda de acessórios automotivos (em um primeiro momento, capa)
+	O que e como Medir:
+		* Perfil de consumidor
+		* Regiões potenciais
+		* Parceiros potenciais
+		* Concorrentes (alcance, talvez?)
+	Coleta dos dados:
+		* Base de dados pesquisa 'Origem e Destino' Metro de SP
+		* Explorar dados publicos em página para traçar perfil ()
+	Análise Exploratória:
+		* Traçar um perfil de locomoção e uso de automóveis
+		* Cruzar dados e visualizar como são utilizados veículos
+		* Traçar um perfil descritivo do consumidor
+	Análise formal:
+		* Aplicar um método de classificação (pode ser logística) para encontrar potencial (muito redundante, bixo!) consumidor 
+	Interpretação:
+		* A análise, seguindo estes passos, surtiu algum resultado ou direcionamento?
+
+Machine Learning Canvas (Trabalha em conjunto com data driven process)
+======================================================================
+What (O quê?), Why (Por quê?), Who (Pra quem?)
+
+Pensar no Machine Learning Canvas para o meu projeto. Entregar em ppt (vide exemplo do professor). Para aula 04 - 25.06.2020
+
+
+Extra e para próxima semana
+============================
+Ver links disponibilizados no Moodle da aula 02 <- OK
+	* Ver os vídeos e ouvir os podcasts
+
+Ver Proxy do Mackenzie para a Capes (Moodle- Avisos gerais)
+	- Ler os exemplos/artigos Periódico Capes 
+
+Vídeos
+Assista a TED Talk de Kenneth Cukier, chamada Big data is better data disponível no link: https://www.ted.com/talks/kenneth_cukier_big_data_is_better_data (caso precise, tem legenda em português). <- OK
+
+Assista a TED Talk de David McCandless chamada The beauty of data visualization no link: https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization  <- OK
+	"Let the dataset change your mindset" Rosling, Hans
+
+
+Podcast:
+Ouvir o episódio Estatisticamente Comprovado, feito pelo grupo “Alô, Ciência”, no link: http://alociencia.com.br/podcast/024-estatisticamente-comprovado/ <- OK
+
+Ouvir o episódio Big Data e as Bolhas da Informação, feito pelo grupo “Alô, Ciência”, no link: http://alociencia.com.br/podcast/022-big-data/ <- OK
+
+Ouvir o episódio #250 Cumbucagate, feito pelo grupo "B9 - Braincast", no link: https://www.b9.com.br/shows/braincast/braincast-250-cumbucagate/ <- OK
+
+Referências:
+https://www.louisdorard.com/machine-learning-canvas
+https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0

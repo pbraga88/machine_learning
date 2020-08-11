@@ -1,0 +1,23 @@
+Aula 06 - 07.07.2020
+====================
+
+Exemplo que será feito na próxima aula:
+	https://www.kaggle.com/c/dog-breed-identification
+
+Pytorch para NLP (Pesquisar)
+
+Em aulas: Exercícios 08 e 09
+
+To Do:
+	- Refazer e entender exercício de aula
+
+Exercício de Aprofundamento 01:
+	- Implantar MLP pra resolver o problema do Titanic
+		* Utiliza mesma preparação de dados
+		* Comparar acurácia com os outros modelos
+
+Exercício de Aprofundamento 02 (Vide Moodle):
+	- https://www.kaggle.com/c/digit-recognizer
+	- Digit Recognizer
+	- Trabalhar com uma rede convolucional:
+		* Ver exemplo de como cria rede convolucional no crash-course

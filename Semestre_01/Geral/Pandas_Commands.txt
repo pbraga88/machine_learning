@@ -1,0 +1,78 @@
+Loading and Saving Data with Pandas
+===================================
+df = pd.read_csv('my_file.csv') -> lê o arquivo e cria um dataframe
+df.to_csv(filename) -> Salva o dataframe em um arquivo tipo CSV
+
+Viewing and Inspecting Data
+===========================
+df.head(n)	-> Primeiras n linhas
+df.tail(n)	-> Últimas n linhas
+
+df.shape()	-> Número de linhas e colunas
+
+df.info()	-> Índice, tipo de dado e memória
+
+s.value_counts(dropna=False)	-> Permite contar os valores únicos
+
+df.describe	-> Estatísticas sobre as colunas
+
+df.mean()	-> Returns the mean of all columns
+df.corr()	-> Returns the correlation between columns in a data frame
+df.count()	-> Returns the number of non-null values in each data frame column
+df.max()	-> Returns the highest value in each column
+df.min()	-> Returns the lowest value in each column
+df.median()	-> Returns the median of each column
+df.std()	-> Returns the standard deviation of each column
+
+Selection of Data
+=================
+df[col]	-> Selecionar coluna
+df[[col1, col2]]	-> Selecionar colunas
+
+s.iloc[0])	-> Seleciona por posição
+(s.loc['index_one'])	-> Seleciona por índice
+
+df.iloc[0,:]	-> Seleciona a primeira linha
+df.iloc[0,0]	-> Seleciona o primeiro elemento da primeira coluna
+
+Filter, Sort and Groupby
+========================
+df[df[year] > 1984]	-> O exemplo retorna apenas os valores maiores que 1984 da coluna
+					   year. Também é possível fazer operações | e &
+
+df.sort_values(col1)	-> Listar em ordem crescente
+df.sort_values(col1, ascending=False)	-> Listar em ordem decrescente
+df.sort_values([col1,col2],ascending=[True,False])	-> Lista col1 em crescente e col2 em 
+													   ordem decrescente
+
+df.groupby(col)		-> agrupa os valores de col e retorna um objeto
+df.groupby([col1, col2])	-> Agrupa os valores de col1 e col2 e retorna um objeto
+
+Data Cleaning
+=============
+pd.isnull()		-> retorna uma matriz booleana de valores true para null e false para 
+				   non-null
+pd.notnull()	-> Este é o opsto de pd.isnull()
+pd.isnull().sum()	-> soma dos valores nulos
+pd.notnull().sum()	-> soma dos valores não-nulos
+
+df.dropna()		-> elimina as linhas com valores nulos
+df.dropna(axis=1)	-> elimina as colunas com valores nulos
+
+df.fillna(x)	-> preenche os valores nulos com x
+s.fillna(s.mean())	-> preenche os valores nulos com a média
+
+s.replace(1,'one')	-> substitui 1 por 'one'
+s.replace([1,3],['one','three'])	-> faz o mesmo que a linha anterior, mas para múltiplas
+									    colunas
+
+df.rename(columns={'old_name': 'new_ name'})	-> renomeia a coluna
+df.set_index('column_one')	-> altera o índice do data frame
+
+Join/Combine
+============
+*	df1.append(df2)— add the rows in df1 to the end of df2 (columns should be identical)
+
+*	df.concat([df1, df2],axis=1) — add the columns in df1 to the end of df2 (rows should be identical)
+
+*	df1.join(df2,on=col1,how='inner') — SQL-style join the columns in df1 with the columns on df2 where the rows for col have identical values. how can be equal to one of: 'left', 'right', 'outer', 'inner'

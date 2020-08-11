@@ -1,0 +1,93 @@
+Creating NumPy Arrays, Loading and Saving Files
+================================================
+numpy_array = np.array(list)	-> Cria array
+numpy_array = np.genfromtxt("file.csv", delimiter=";", skip_header=1) -> open a CSV file
+
+np.savetxt('file.csv',arr,delimiter=',')	-> save NumPy arrays to file
+
+np.random.rand(3,4) 	-> will create a 3x4 array of random numbers between 0 and 1
+np.random.rand(7,6)*100 	-> will create a 7x6 array of random numbers between 0 to 100
+np.random.randint(10,size=(3,2)) 	-> creates an array the size of 3x2 with random numbers between 0 and 9
+
+np.zeros(4,3)	-> 4x3 array of all zeros
+np.ones((4)) 	-> 4x1 array of ones
+
+Working and Inspecting Arrays
+=============================
+array.size 	-> number of elements
+array.shape	-> he dimensions — rows and columns
+
+array.dtype	-> to get the data types of the array (floats, integers etc)
+
+array.astype(dtype)	-> to convert the datatype
+array.tolist()	-> to convert a NumPy array to a Python list
+
+Indexing and Slicing
+====================
+array[5]	-> will return the element in the 5th index
+array[2,5]	-> will return the element in index[2][5]
+
+array[0:5]	-> will return the first five elements (index 0–4)
+array[0:5,4]	-> will return the first five elements in column 4
+
+array[:2]	-> to get elements from the beginning until index 2 (not including index 2) 
+array[2:] 	-> to return from the 2nd index until the end of the array
+array[:,1] 	-> will return the elements at index 1 on all rows
+
+array[1]=4 	-> will assign the value 4 to the element on index 1
+array[1,5]=10 -> to multiple values
+array[:,10]=10	-> will change the entire 11th column to the value 10
+
+Sorting and Reshaping
+=====================
+array.sort()	-> can be used to sort your NumPy array
+array.sort(axis=0)	-> will sort specific axis of the array — rows or columns
+
+two_d_arr.flatten()	->will flatten a 2 dimensional array to a 1 dimensional array
+
+array.T 	-> will transpose an array — meaning columns will become rows and vice versa
+array.reshape(x,y)	-> would reshape your array to the size you set with x and y
+array.resize((x,y)) ->will change the array shape to x and y and fill new values with zeros
+
+Combining and Splitting
+=======================
+np.concatenate((array1,array2),axis=0)	-> to combine two NumPy arrays — this will add 	array 2 as rows to the end of array 1
+
+np.concatenate((array1,array2),axis=1)	-> will add array 2 as columns to the end of array 1
+
+np.split(array,2) 	-> will spilt the array into two sub-arrays
+
+np.hsplit(array,5)	-> will split the array horizontally on the 5th index
+
+Adding and Removing Elements
+============================
+np.append(array,values) will append values to end of array.
+np.insert(array, 3, values)will insert values into array before index 3
+np.delete(array, 4, axis=0)will delete row on index 4 of array
+np.delete(array, 5, axis=1) will delete column on index 5 of array
+
+Descriptive Statistics
+======================
+np.mean(array,axis=0) will return mean along specific axis (0 or 1)
+array.sum() will return the sum of the array
+array.min()will return the minimum value of the array
+array.max(axis=0)will return the maximum value of specific axis
+np.var(array)will return the variance of the array
+np.std(array,axis=1)will return the standard deviation of specific axis
+array.corrcoef()will return the correlation coefficient of the array
+numpy.median(array) will return the median of the array elements
+
+Doing Math with NumPy
+=====================
+np.add(array ,1) will add 1 to each element in the array and np.add(array1,array2) will add array 2 to array 1. 
+	The same is true to np.subtract(), np.multiply(), np.divide() and np.power() — all these commands would work in exactly the same way as described above.
+
+np.sqrt(array) will return the square root of each element in the array
+np.sin(array) will return the sine of each element in the array
+np.log(array) will return the natural log of each element in the array
+np.abs(arr) will return the absolute value of each element in the array
+np.array_equal(arr1,arr2) will return True if the arrays have the same elements and shape
+
+np.ceil(array)	-> will round up to the nearest integer
+np.floor(array)	-> will round down to the nearest integer
+np.round(array)	-> will round to the nearest integer

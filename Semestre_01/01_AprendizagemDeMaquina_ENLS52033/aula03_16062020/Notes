@@ -1,0 +1,58 @@
+Aula 03 - 16.06.2020
+====================
+**************************************************************************
+Professor extendeu o prazo para o exercício <- OK
+	Para exercício aula anterior
+	- Usar data.describe() - Opcional
+	- Plotar qualidade (vide exemplos artigo) - Opcional
+	usar: train_test_split(shuffle = True, stratify = y) 
+
+	Acuracia no dataset de test e train 
+
+	cross validation do dataset? (Não Mandatório)
+
+	plotar matriz de confusão (Não Mandatório)
+
+	Usar matriz de correlação para eliminar variáveis (Não Mandatório)
+**************************************************************************
+
+boxplot: estudar
+data.boxplot['feature'] <- para ver os outliers
+
+
+Exercício Aprofundamento
+========================
+	- Entrega: 30.06.2020
+	- Objetivo: Explorar os dados com todos os algorítmos passados em aula
+	- Lista de algoritmos de classificação para explorar:
+		* Classificação Bayseana	<- OK
+		* Árvore de Decisão	 
+		* Random Forests
+		* Regressão Logística	<- OK
+
+	- Pré-processadores de dados para Machine Learning (with Scikit-Learn):
+		* Scale;	<-OK
+			- Standardize;
+			- Normalize;
+		* Tratamento de Nulos e Exclusão:			<- OK
+			- Se nulos > 60~70%, exclui Feature 	<- OK
+		* Preenchimento (Clustering); 	<- OK
+		* Outliers; <- OK
+		* Binning; <- OK
+		* One-Hot Encoding <- OK
+		* Feature Split <- OK
+		* Convert to int <- OK
+
+	- Notas de aula:
+		* Usar cross-validation (opcional. como dito em aula pelo professor)
+		* Features Engineering - Preparar bem os dados (Tanto para data_test quanto para data_train)
+		* Decide no set de treinamento, aplica no de teste: Outliers e nulos
+
+		matriz de confusão
+
+Fazer análise descritiva dos dados
+	Primeira avaliação: 
+		tem nulos? ouliers?
+
+Referência: Ver Notebook no kaggle para referências
+			Pesquisar na internet

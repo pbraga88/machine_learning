@@ -1,0 +1,22 @@
+Aula 03 18.06.2020
+==================
+Diferença Média e Mediana? Pesquisar!
+
+*** Terminar Machine Learning Canvas - Para próxima aula (25.06.2020)
+
+Terminar exemplo Jupyter (moodle)
+
+Ver Resumo do livro Professor (moodle)
+	São dois livros
+
+Assistir video recomendado pelo Professor (moodle)
+
+
+
+Referências:
+Estilo de linha: https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.lines.Line2D.html
+BoxPlot no MatPlotLib: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.boxplot.html
+Cores no MatPlotLib: https://matplotlib.org/gallery/color/named_colors.html
+Marcador no MatPlotLib: https://matplotlib.org/api/markers_api.html?highlight=marker
+BoxPlot no Pandas:
+https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.boxplot.html

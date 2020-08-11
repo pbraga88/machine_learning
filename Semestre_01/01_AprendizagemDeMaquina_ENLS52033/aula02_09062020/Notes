@@ -1,0 +1,35 @@
+09.06.2020
+==========
+Regressão Linear Múltipla <- Ver referência no slide 07
+
+Exercício 03 do crash course: Refazer no ambiente Jupyter
+https://github.com/MicrosoftDocs/ms-learn-ml-crash-course-python
+	Coeficiente Intercept? Pesquisar
+
+Exercício 05 do crash course: Refazer no ambiente Jupyter
+
+Exercício de aprofundamento: Regressão Logística (Ver descrição no Moodle) <- OK
+	1) Quebrar e embaralhar o dataset utilizando o Pandas
+
+	2) Classificar o campo quality como 1 ou 0 (vide descrição no Moodle)
+
+	3) Matriz de Confusão: Imprimir Todos os VP(Verdadeiro Positivo), VN(Verdadeiro Negativo), FP (Falso Positivo) e FN (Falso Negativo), bem como a Acurácia, Sensibilidade e Especificidade (Vide apresentação aula 02 para fórmulas)
+	
+	Referência para Exercício:
+	- https://medium.com/greyatom/logistic-regression-89e496433063 <- OK
+	- https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8 <- Partially OK (Tomar anotações finais e fazer curva ROC)
+
+	To split dataset:
+	- https://medium.com/@rinu.gour123/train-and-test-set-in-python-machine-learning-how-to-split-58029a0d657b
+	- https://medium.com/@contactsunny/how-to-split-your-dataset-to-train-and-test-datasets-using-scikit-learn-e7cf6eb5e0d
+
+	Rodar exemplo que o professor passou (aula02_09062020/Exerc_Aprofundamento/Exemplo/RedWine_Python.ipynb), no Jupyter
+
+Exercício Complementar: <- OK
+	Ver vídeo exercício complementar (Assistir vídeo e responder questões)
+	Terminar curso Pandas
+
+Ver Livros: 
+	- Estatistica Pratica Para Cientistas de Dados - 50 Conceitos Essenciais (Em Portugues do Brasil)
+	- ESTATÍSTICA BÁSICA eBook Kindle
+	

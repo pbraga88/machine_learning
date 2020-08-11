@@ -1,0 +1,21 @@
+Aula 05 - 30.06.2020
+====================
+
+	- Exercício Titanic: Fazer a Matriz de Confusão também, baseado no dataset de treinamento
+		* Data de entrega extendida: 07.07.2020
+		* Gerar o SVM como classificador também
+		* Usar apenas o dataset de treinamento (Fazer o split)
+
+	Exercício Precificação de Imóveis:
+		* Alteração no print do Lasso. Atualizar pdf para entrega
+
+	- Estudar:
+		Aula:
+			* SVM
+				https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989
+			* Redes Neurais
+				* playground.tensorflow.org
+
+		Extra:
+			* Polinomíos e Binomios
+			* Vetores

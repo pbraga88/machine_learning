@@ -1,0 +1,57 @@
+Natural Language Processing (NLP) - 
+Possíveis NLPs para o projeto:
+	Summarization
+	Information Extraction
+	Relationship Extraction
+
+Machine Learning Canvas
+=======================
+* VALUE PROPOSITION:
+	- O objetivo é estabelecer um sistema de Processamento Natural de Linguagem (NLP) 
+	para detectar falhas no processo de serialização
+
+* LEARN:
+	- Data Source: Arquivos de log de serializações
+	- Collecting data: Usar novos documentos, conforme eles forem sendo gerados.
+	- Features: Conteúdo do documento. Utilizar Regex para interpretar valores 
+				Simlaridade com outros documentos
+	- Building Models: Modelo atualizado a cada novo lote de serializações. O tempo 
+	de atualização pode ser de algumas semanas, baseado na janela entre as produções.
+
+* PREDICT:
+	- ML task: Identificar erros de serialização
+			   Input: Documento de log
+			   Output: OK ou NOK -> Classificação binária
+	- Decisions: Se probabilidade de OK > N: aprova
+				 Se probabilidade de OK < N: reprova
+	* Making Predictions: Predição utilizando novos dados podem ser feitas sempre que 
+	houver um novo processo de serialização. 
+	* Offline Evaluation: Treinar o modelo com os dados acumulados de último ano
+						  Elaborar matriz de confusão que encaixe na proposta
+
+* EVALUATE:
+	- Quão assertivo é o modelo?
+	- O modelo se mostrou viável?
+	- Está ajudando na detecção de falhas?
+
+
+- Notas de aula (25.06.2020):
+	Impeditivos/Desafios:
+	- Quais libs/frameworks  utilizar?
+	fast.ai <-
+	- Referências?
+		-  Vetorizar o texto: word2vec <-
+		- lstm
+
+	Utilizar classificação:
+		- Três estados(?)
+			* OK, NOK, maybe OK
+
+	Alterar
+
+	[Mudar para Collecting Data]
+		* Utilizar Regex para interpretar valores 
+		* Simlaridade com outros documentos
+
+	Feature:
+		Percentual de similaridade

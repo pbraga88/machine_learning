@@ -1,0 +1,102 @@
+Tema: Segmentação de consumidores
+Sub-Título: Análise de dados sobre veículos e mercado para expansão de vendas e marketing direcionado
+Data de Entrega: 23.07.2020
+	
+	- Quais canais de Marketing?
+	- Qual o público alvo?
+	- Qual mensagem devo comunicar?
+	- Como medir a efetividade? 
+	- Quais dados utilizar
+
+	Para utilizar os dados de uma maneira significativa, é preciso sabe como coletar, 
+	analizar e mostrar os dados.
+
+Sugestôes de aula (11.06.2020)
+- Rastro Digital
+	* Sales Target (empresa de remarketing)
+		- Fabiane Nardon (https://twitter.com/fabianenardon)
+- Para medir efetividade:
+	* Analytics
+	* Teste AB
+
+
+O que fazer:
+	* traçar perfil de consumidores através de dados públicos (Facebook ou Instagram)
+
+Data Driven Process
+===================
+Escrever Para o meu projeto
+	Natureza Problema:
+		* Encontrar nichos de mercado para venda de acessórios automotivos (em um primeiro momento, capa)
+		* Etender o mercado e como direcionar a divulgação do produto (capas automotivas)
+	O que e como Medir:
+		* Perfil de consumidor
+		  	- de acessórios automotivos, de maneira geral
+		  	- Faixa etária
+		  	- Classe Social
+		  	- Pessoa Física ou Jurídica (Lojas de carro e Estacionamento)
+		* Regiões potenciais
+		  	- Encontrar condomínios e ruas particulares
+		  		- Cruzar com dados de concentração de veículos
+	  		- Lojas de carro (Melhorar descrição)
+	  		- Estacionamentos
+	  		- Lava-Rápido
+		* Parceiros potenciais
+		* Concorrentes (alcance, talvez?)
+		* Local de Estudo: São Paulo e Grande São Paulo
+		* Tipos de Dados: Concentração de veículos por região
+	Coleta:
+		* Base de dados pesquisa 'Origem e Destino' Metro de SP
+		* Dados em redes sociais para perfil do consumidor
+			- WEB SCRAPPING
+			- Explorar dados publicos em página para traçar perfil ()
+		* Mapeamento de possíveis alvos comerciais (Estacionamento/Lojas de Carro)
+			- Pesquisar se disponível em portais públicos do município/estado
+
+	Análise Exploratória:
+		* Traçar um perfil de locomoção e uso de automóveis
+		* Cruzar dados e visualizar como são utilizados veículos
+		* Traçar um perfil descritivo do consumidor
+	Análise formal:
+		* Aplicar um método de classificação (pode ser logística) para encontrar potencial (muito redundante, bixo!) consumidor 
+	Interpretação:
+		* A análise, seguindo estes passos, surtiu algum resultado ou direcionamento?
+
+Machine Learning Canvas - Summary
+=================================
+* Value Proposition(s) (What+Why+Who)
+	- O quê?
+	- Por quê?
+	- Pra quêm?
+
+* LEARN (HOW)
+	- Fontes de dados: Quais fontes de dados brutos podemos usar?
+	- Coletando os dados: Como coletar novos dados para aprendizagem (inputs e ouputs)
+	- Features: Representações à serem extraídas da fonte de dados
+	- Construindo modelos: Quando criar/atualizar modelos com novos dados de treinamento 
+	e quanto tempo temos para isso?
+
+* PREDICT:
+	- ML task: Qual tipo? Classificação, regressão ou alguma outra?
+	Quais os inputs e qual o output à ser previsto (juntamente com possíveis valores)
+	- Decisions: Como as predições são utilizadas para tomar decisões que entreguem o 
+	valor proposto ao cliente
+	- Making Predictions: Quando fazer predições em novos inputs e quanto tempo temos 
+	para isso
+	- Offline evaluation: Quais métodos utilizar para avaliar como as predições serão 
+	feitas e utilizadas, antes da entrega
+
+Evaluate:
+	- A avaliação é parte importante do Canvas, pois é onde verificamos o valor 
+	criado. Métodos e métricas devem ser aplicados para avaliar e quantificar a 
+	qualidade do sistema, após a entrega
+
+
+
+Referências para ler e tirar insights
+=====================================
+Artigo Customer Segmentation
+https://towardsdatascience.com/customer-segmentation-with-machine-learning-a0ac8c3d4d84
+
+Artigo Client Prospect
+https://www.datarobot.com/blog/using-machine-learning-to-identify-high-potential-client-prospects-in-wealth-management/
