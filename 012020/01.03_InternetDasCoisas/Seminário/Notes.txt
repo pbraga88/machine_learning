@@ -1,0 +1,23 @@
+Tema: IoT para Home Assistants - Um estudo de caso com Amazon Alexa
+Entrega: 29.09.2020
+
+Teoria:
+	- Conceito de Home Assistant
+	- Alexa: Overview do que é a Alexa
+	- Qual a tecnologia por trás da Alexa?
+		* Uma breve explicação dos conceitos técnicos
+			- Referência: https://towardsdatascience.com/how-amazon-alexa-works-your-guide-to-natural-language-processing-ai-7506004709d3
+	- Integração/Aplicação: 
+		* Quais as possibilidades?
+			- Integração com diferentes HWs (Iluminação, Pontos de Energia, Televisores, Raspberry, Arduino, etc)
+	- Segurança: Quais os riscos envolvidos?
+		* Referências:
+			- https://edition.cnn.com/2019/04/26/perspectives/amazon-echo-listening-alaimo/index.html
+			- https://www.theguardian.com/technology/2019/oct/09/alexa-are-you-invading-my-privacy-the-dark-side-of-our-voice-assistants
+			- https://theconversation.com/amazon-echos-privacy-issues-go-way-beyond-voice-recordings-130016
+
+Prática:
+	- Demonstrar exemplos práticos de aplicação da Alexa para automação residencial
+	- Exemplos de uso Erick
+	- Integração com RaspberryPy
+		- Referência: https://tutorials-raspberrypi.com/develop-your-own-raspberry-pi-alexa-skill-and-control-pi-remotely/

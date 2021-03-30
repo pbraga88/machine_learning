@@ -1,0 +1,8 @@
+Trabalho 3: Aprendizado Não Supervisionado
+Pessoal,
+O trabalho é conseguir a lista de cidades com problemas de mortalidade infantil
+
+No notebook cidade_a_melhorar.ipynb, é gerado um array "indices". Em cada linha desse array, a primeira coluna é a cidade testada (0 a 643). As outras colunas são as 3 cidades mais semelhantes. Se a cidade testada tiver mortalidade infantil maior que a de todas as 3 outras, deve ser incluída na lista de cidades com problemas.
+A lista tem 147 cidades....
+
+obs: usei o kneighbors do sklearn para encontrar as cidades mais parecidas com cada cidade testada.

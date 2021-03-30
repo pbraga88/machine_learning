@@ -1,0 +1,22 @@
+aula 04 - 03.09.2020
+====================
+
+Tenant (Inquilino)
+
+Single Tenancy: Recursos/Aplicações exclusivos(as). Maior custo.
+
+Multi-Tenancy: Recursos/Aplicações compartilhados(as). Menor custo.
+
+--------------------------------------------------------------------
+
+QoS - Quality of Service
+
+Requisitos Funcionais: Como a aplicação deve funcionar
+
+Requisitos Não-Funcionais: As métricas de qualidade que a aplicação deve satisfazer
+
+Norma: SQuaRE - Software Quality Requirement 
+
+--------------------------------------------------------------------
+
+Cloud Computing Life Cycle

@@ -1,0 +1,8 @@
+1) Sensor
+	Sensores de gases perigosos: Um bom exemplo é o sensor de monóxido de carbono, um gás perigoso e que pode ser fatal, dependendo da quantidade em que ele é inalado. Este gás é produzido pela queima de combústiveis fósseis de veículos auto-motores, por exemplo. Portanto, uma aplicação para este tipo de sensor é fazer o monitoramento da emissão do monóxido de carbono por veículos em ambientes fechados.
+
+2) Atuador
+	Relay: É um switch operado de maneira de elétrica que pode, por exemplo, ser utilizado em fechaduras elétricas. 
+
+3) RFID
+	NFC (near field communication): Este tipo de tecnologia pode ser aplicado para pagamentos via dispositivos móveis, visto que é de curto alcance. Por exemplo, um samartphone que possua tal tecnologia pode substituir cartões de crédito.
