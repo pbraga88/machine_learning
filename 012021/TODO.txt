@@ -1,0 +1,19 @@
+Data Vizualization
+==================
+Trabalho de Conclusão
+Tema: ?
+Data de entrega: 20.04.2021 (Aula 08)
+
+Resenha de artigo
+Tema: Computer Vision
+Data de entrega: 13.04.2021
+
+Deep Learning
+=============
+Trabalho de Conclusão
+Tema: CNN applied to car plate connection
+Data de entrega: 22.04.2021
+
+Exercício
+Tema: 
+Data de Entrega: 07.04.2021
